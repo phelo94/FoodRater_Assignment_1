@@ -1,0 +1,43 @@
+<resources>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="app_name">FoodRater</string>
+    <string name="appHelp">FoodRater Help Screen</string>
+    <string name="appHelpExtra">FoodRater offers the User the option to keep track of their favourite foods from takeaways.</string>
+    <string name="appDisplayName">FoodRater</string>
+    <string name="appDesc">FoodRater provides the user with a quick and easy way to manage a variety of Food Items and add your favourite Food item or takeaway to Favourites.</string>
+    <string name="appMoreInfo">For more information about FoodRater or to provide feedback please visit our website.</string>
+    <string name="appAbout">About FoodRater</string>
+    <string name="appWebsite">ddrohan.github.io</string>
+    <string name="developer">Edited by Shawn Phelan / Developed by Davey Drohan</string>
+
+    <string name="searchCoffeesLbl">Search Food Item\'s</string>
+    <string name="favouritesCoffeeLbl">Favourite Food Item\'s</string>
+    <string name="addACoffeeLbl">TakeAway Check In</string>
+    <string name="addCoffeeBtnLbl">Add Food</string>
+    <string name="saveCoffeeBtn">Save Food</string>
+    <string name="recentlyViewedLbl">Recently Added Food Item\'s</string>
+    <string name="coffeeNameLbl">Name :</string>
+    <string name="coffeeShopLbl">Shop :</string>
+    <string name="coffeePriceLbl">Price :</string>
+    <string name="coffeeRatingLbl">Star Rating</string>
+    <string name="coffeeDetailsLbl">Full Food Item Details</string>
+    <string name="informationLbl">Information</string>
+    <string name="emptyMessageLbl">You have no Food Item\'s added!</string>
+    <string name="deleteCoffeesLbl">Delete Food Items</string>
+    <string name="editCoffeeLbl">Edit a Food Item</string>
+
+    <string-array name="coffeeTypes">
+        <item>All Types</item>
+        <item>Favourites</item>
+        <item>\> 3\* Rating</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="buttonHome">Navigate to Home</string>
+    <string name="title_profile">Logged In User</string>
+    <string name="FoodRater">FoodRater</string>
+</resources>

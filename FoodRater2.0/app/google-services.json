@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "27083408769",
+    "firebase_url": "https://coffeemate40-41ebc.firebaseio.com",
+    "project_id": "coffeemate40-41ebc",
+    "storage_bucket": "coffeemate40-41ebc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:27083408769:android:d15577af3f2220ae",
+        "android_client_info": {
+          "package_name": "ie.cm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "27083408769-5fb2ouoqk9i9d85uc4dgte3j6lpt00nr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "ie.cm",
+            "certificate_hash": "4593d3ed8e6697ba9fb17489f348c4ac7836f367"
+          }
+        },
+        {
+          "client_id": "27083408769-14lk7m99v3rp5t0qn75a9u1c8irhsa2e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDptXY1SxlVvPRrq7pPE8nC8lvIXaFp1tY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "27083408769-14lk7m99v3rp5t0qn75a9u1c8irhsa2e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

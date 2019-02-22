@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/menu_home"
+        android:icon="@drawable/home"
+        android:title="Home"
+        android:orderInCategory="100"
+        app:showAsAction="ifRoom"
+        android:onClick="menuHome"/>
+
+    <item android:id="@+id/menu_note"
+        android:title="Notes"
+        android:orderInCategory="100"
+        app:showAsAction="never"
+        android:onClick="menuNote"/>
+
+    <item android:id="@+id/menu_profile"
+        android:title="Profile"
+        android:orderInCategory="100"
+        app:showAsAction="never"
+        android:onClick="menuProfile"/>
+
+
+    <item
+        android:id="@+id/menuLogout"
+        android:title="Logout" />
+</menu>

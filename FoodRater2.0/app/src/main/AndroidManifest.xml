@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="ie.cm">
+
+    <application
+        android:name=".main.CoffeeMateApp"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Food Rater"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".journal.NoteActivity" />
+        <activity android:name=".journal.NotesListActivity" />
+        <activity android:name=".registration.ProfileActivity" />
+        <activity android:name=".registration.LoginActivity" />
+        <activity android:name=".registration.SignUpActivity" />
+        <activity
+            android:name=".notes.NewNoteActivity"
+            android:parentActivityName=".notes.NoteActivity" />
+        <activity
+            android:name=".notes.NoteActivity"
+            android:launchMode="singleTop" />
+        <activity
+            android:name=".activities.Splash"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activities.Home"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="adjustPan" />
+    </application>
+
+</manifest>

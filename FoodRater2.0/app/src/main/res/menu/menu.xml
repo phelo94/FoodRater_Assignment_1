@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!--
+    <item android:id="@+id/menu_home"
+        android:icon="@drawable/home"
+        android:title="Home"
+        android:orderInCategory="100"
+        app:showAsAction="ifRoom"
+        android:onClick="menuHome"/>
+
+
+        <item
+        android:id="@+id/buttonHome"
+        android:icon="@drawable/home"
+        android:title="Home"
+        app:showAsAction="ifRoom" />
+-->
+    <item android:id="@+id/menu_home"
+        android:icon="@drawable/home"
+        android:title="Home"
+        android:orderInCategory="100"
+        app:showAsAction="ifRoom"
+        android:onClick="menuHome"/>
+
+    <item android:id="@+id/menu_note"
+        android:title="Note"
+        android:orderInCategory="100"
+        android:onClick="menuNote"/>
+
+    <item android:id="@+id/menu_journal"
+        android:title="Journal"
+        android:orderInCategory="100"
+        android:onClick="menuJournal"/>
+
+    <item
+        android:id="@+id/menuLogout"
+        android:title="Logout" />
+
+
+
+
+
+
+
+</menu>
