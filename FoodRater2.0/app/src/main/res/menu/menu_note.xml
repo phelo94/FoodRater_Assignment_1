@@ -9,7 +9,7 @@
         android:onClick="menuHome"/>
 
     <item android:id="@+id/menu_journal"
-        android:title="Journal"
+        android:title="Restaurant Reviews"
         android:orderInCategory="100"
         app:showAsAction="never"
         android:onClick="menuJournal"/>

@@ -8,25 +8,35 @@ android:orientation="vertical"
 android:padding="16dp"
 tools:context=".notes.NewNoteActivity">
 
-<EditText
-    android:id="@+id/edit_text_title"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:hint="Title"
-    android:inputType="text" />
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="379dp"
+        android:layout_height="86dp"
+        android:fontFamily="@font/fugaz_one"
+        android:text="Add Meal"
+        android:textAlignment="center"
+        android:textColor="@color/darkYellow"
+        android:textSize="24sp" />
 
-<EditText
-    android:id="@+id/edit_text_description"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:hint="Description"
-    android:inputType="textMultiLine" />
+    <EditText
+        android:id="@+id/edit_text_title"
+        android:layout_width="382dp"
+        android:layout_height="67dp"
+        android:hint="Meal"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/edit_text_description"
+        android:layout_width="380dp"
+        android:layout_height="74dp"
+        android:hint="Description"
+        android:inputType="textMultiLine" />
 
     <TextView
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="40dp"
         android:layout_marginTop="16dp"
-        android:text="Quility Score:"
+        android:text="Quality Score:"
         android:textAppearance="@android:style/TextAppearance.Medium" />
 
     <NumberPicker

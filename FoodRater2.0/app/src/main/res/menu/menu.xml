@@ -30,7 +30,7 @@
         android:onClick="menuNote"/>
 
     <item android:id="@+id/menu_journal"
-        android:title="Journal"
+        android:title="Restaurant Reviews"
         android:orderInCategory="100"
         android:onClick="menuJournal"/>
 

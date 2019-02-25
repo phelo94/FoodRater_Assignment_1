@@ -6,10 +6,20 @@
     android:layout_height="match_parent"
     tools:context=".notes.NoteActivity">
 
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|center_horizontal"
+        android:fontFamily="@font/fugaz_one"
+        android:text="Add Meal"
+        android:textColor="@color/darkYellow"
+        android:textSize="24sp" />
+
     <android.support.v7.widget.RecyclerView
         android:id="@+id/recycler_view"
         android:layout_width="match_parent"
-        android:layout_height="632dp" />
+        android:layout_height="580dp" />
 
     <android.support.design.widget.FloatingActionButton
         android:id="@+id/button_add_note"
@@ -18,5 +28,7 @@
         android:layout_gravity="bottom|end"
         android:layout_margin="16dp"
         android:src="@drawable/ic_add" />
+
+
 
 </android.support.design.widget.CoordinatorLayout>
