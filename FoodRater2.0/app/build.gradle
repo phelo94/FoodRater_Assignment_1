@@ -2,6 +2,12 @@ apply plugin: 'com.android.application'
 apply plugin: 'com.google.gms.google-services'
 
 android {
+
+    lintOptions{
+        checkReleaseBuilds false
+
+    }
+
     compileSdkVersion 28
     defaultConfig {
         applicationId "ie.cm"
